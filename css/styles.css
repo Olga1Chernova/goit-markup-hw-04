@@ -506,8 +506,8 @@ background-color: #FFFFFF;
     justify-content: center;
     align-items:  center;
 }
-.social-link-footer :hover,
-.social-link-footer :focus{
+.social-link-footer:hover,
+.social-link-footer:focus{
     background-color: var(--accent-color);
 }
 .social-icon-footer{   
