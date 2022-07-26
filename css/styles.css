@@ -215,17 +215,20 @@ color: var(--accent-color);
 }
 .advantage{
     padding-top: 94px;
-    /* background-color: #188CE8; */
 }
 .advantages{
     display: flex;
     
 }
 .advantage-icon-container{
+    background: #F5F4FA;
+    border-radius: 4px;
+    width: 270px;
+    height: 120px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 55px;
+    margin-bottom: 30px;
 }
 .advantages-title{
     margin-bottom: 10px;
@@ -313,7 +316,7 @@ margin-right: 30px;
     color: var(--heading-text-color);
 }
 .team-job{
-    margin-bottom: 28px;
+    margin-bottom: 16px;
     
     font-family: var(--primary-font);
     font-weight: 400;
@@ -375,17 +378,26 @@ margin-right: 30px;
 }
 .client-icon{
     fill: currentColor;
-    padding-top: 16px;
-    padding-right: 32px;
-    padding-bottom: 16px;
-    padding-left: 32px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.client-icon-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
     width: 170px;
     height: 92px;
 }
-.client-icon-link :hover{
+.client-icon-link:hover,
+.client-icon-link:focus{
     color: var(--accent-color);
+    border-color: var(--accent-color);
+}
+.client-icon:hover,
+.client-icon:focus{
     border-color: var(--accent-color);
 }
 /*=====================================PORTFOLIO=====================================*/
@@ -449,8 +461,8 @@ margin-right: 30px;
 border-bottom: 1px solid #EEEEEE;
 background-color: #FFFFFF;
 }
-.project-card:hover,
-.project-card:focus{
+.project-card-wrapper:hover,
+.project-card-wrapper:focus{
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 
                 0px 4px 4px rgba(0, 0, 0, 0.06),
                 1px 4px 6px rgba(0, 0, 0, 0.16);
