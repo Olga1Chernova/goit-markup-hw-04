@@ -458,11 +458,15 @@ margin-right: 30px;
     flex-basis: ((100%-60)/3);
 }
 .project-card{
-border-bottom: 1px solid #EEEEEE;
 background-color: #FFFFFF;
 }
-.project-card-wrapper:hover,
-.project-card-wrapper:focus{
+.project-card-wrapper{
+    border-right: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
+    border-left: 1px solid #EEEEEE;
+}
+.project-card-shadow:hover,
+.project-card-shadow:focus{
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 
                 0px 4px 4px rgba(0, 0, 0, 0.06),
                 1px 4px 6px rgba(0, 0, 0, 0.16);
